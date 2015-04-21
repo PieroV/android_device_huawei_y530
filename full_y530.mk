@@ -234,4 +234,3 @@ $(call inherit-product, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 $(call inherit-product-if-exists, vendor/huawei/y530/y530-vendor.mk)
-$(call inherit-product-if-exists, vendor/huawei/g630/g630-vendor.mk)
